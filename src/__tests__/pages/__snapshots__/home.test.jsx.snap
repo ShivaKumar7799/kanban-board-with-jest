@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders home componenet correctly loader component snapshot 1`] = `
+<div>
+  <div
+    class="d-flex justify-content-center min-vh-100 bg-dark align-items-center"
+  >
+    <div
+      class="w-50 border border-primary rounded py-3 px-5 bg-white h-75"
+      style="min-height: 375px;"
+    >
+      <h1
+        class="text-center text-dark"
+      >
+         Kanban Board
+      </h1>
+      <form>
+        <div
+          class="d-flex flex-column"
+        >
+          <label
+            for="userNameOrEmail"
+          >
+            Username/email
+          </label>
+          <input
+            class="form-control"
+            id="userNameOrEmail"
+            name="userNameOrEmail"
+            placeholder="Please enter your username or email here"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="d-flex flex-column"
+        >
+          <label
+            for="password"
+          >
+            password*
+          </label>
+          <input
+            class="form-control"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+            type="password"
+            value=""
+          />
+          <span
+            class="text-primary cursor-pointer"
+          >
+            show password
+             
+          </span>
+        </div>
+        <div />
+        <div
+          class="d-flex justify-content-center py-3"
+        >
+          <input
+            class="btn btn-success btn-lg"
+            type="submit"
+            value="Login"
+          />
+        </div>
+        <div>
+          <span>
+            Don't have account? 
+            <a
+              href="/signUp"
+            >
+              Register Here
+            </a>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

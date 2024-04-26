@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader snapshot of loader component 1`] = `
+<div>
+  <div
+    class="position-fixed w-100 z-index min-vh-100 d-flex justify-content-center align-items-center"
+  >
+    <span
+      class="loader"
+    />
+  </div>
+</div>
+`;
